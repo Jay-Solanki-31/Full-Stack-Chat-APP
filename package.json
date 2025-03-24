@@ -1,13 +1,17 @@
 {
   "name": "chat-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Full Stack Chat App",
   "main": "index.js",
   "scripts": {
-        "build":"npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
-        "start": "npm run start --prefix backend "
+    "install": "npm install --prefix backend && npm install --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
   },
-  "keywords": [],
-  "author": "",
+  "engines": {
+    "node": "18.x"
+  },
+  "keywords": ["chat", "messaging", "full-stack"],
+  "author": "Your Name",
   "license": "ISC"
 }
